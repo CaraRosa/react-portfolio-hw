@@ -66,3 +66,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+li {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* Deletes bullet points from nav links */
+.nav-item {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+
