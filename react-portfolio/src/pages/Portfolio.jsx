@@ -5,7 +5,9 @@ import ImageListItem from '@mui/material/ImageListItem';
 // Import your screenshots
 import EarringWebsite from '../assets/images/EarringWebsite.png';
 import HoriseonWebpage from '../assets/images/HoriseonWebpage.png';
-import GasFinderWebpage from '../assets/images/GasFinderWebpage.png'
+import GasFinderWebpage from '../assets/images/GasFinderWebpage.png';
+import NoteTakerWebpage from '../assets/images/NoteTakerWebpage.png';
+import WeatherDashboard from '../assets/images/WeatherDashboard.png';
 // Import other screenshots as needed
 
 export default function Portfolio() {
@@ -24,6 +26,16 @@ export default function Portfolio() {
         img: GasFinderWebpage,
         title: 'GasFinderWebpage',
         url: 'https://charleshuurman.github.io/Gas-Finder/'
+    },
+    {
+        img: NoteTakerWebpage,
+        title: 'NoteTakerWebpage',
+        url: 'https://secret-cliffs-61870-e58852470ed1.herokuapp.com/notes'
+    },
+    {
+        img: WeatherDashboard,
+        title: 'WeatherDashboard',
+        url: 'https://cararosa.github.io/weather-dashboard-challenge/'
     }
     // Add more items with screenshots and titles as needed
   ];
