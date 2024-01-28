@@ -1,4 +1,5 @@
-import { Outlet } from 'react-router-dom';
+// import { Outlet } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Nav from './components/NavTabs';
 import Navigation from './components/Navigation';
 import Footer from './components/footer';
@@ -8,10 +9,12 @@ import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Project from './components/Project';
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-// import './App.css';
+import './App.css';
+import './index.css';
 
 function App() {
   const [pages] = useState([
@@ -32,19 +35,21 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
   return (
     <>
-    < Navigation
-      className="App-navigation"
-      setCurrentPage = {setCurrentPage}
-      currentPage={currentPage}
-      pages={pages}
-      />
-
-    <Header />
-    <main className='mx-3'>
-      <Outlet />
-    </main> 
-    <Footer />
-    </>
+      <div>
+        <Navigation />
+        <Header />
+        <main className="mx-3">
+          <Routes>
+            <Route path="*" element={<AboutMe />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+      </>
+    
   );
 }
 

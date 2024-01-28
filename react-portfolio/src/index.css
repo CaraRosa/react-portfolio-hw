@@ -67,18 +67,43 @@ button:focus-visible {
   }
 }
 
-li {
+/* li {
   float: left;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
+} */
 /* Deletes bullet points from nav links */
 .nav-item {
   display: block;
   padding: 8px;
   background-color: #dddddd;
+}
+
+.nav {
+  display: flex;
+  /* justify-content: space-around; */
+  /* width: 100%; */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+}
+
+/* .nav-item {
+  flex-grow: 1;
+} */
+
+.nav-link {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #555;
 }
 
 

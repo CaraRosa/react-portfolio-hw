@@ -4,7 +4,14 @@ function Navigation() {
     const currentPage = useLocation().pathname;
 
     return (
-        <ul className='nav nav-tabs'>
+        <ul className='nav nav-tabs' style={{ 
+            width: '100%', 
+            display: 'flex', 
+            justifyContent: 'space-around',
+            backgroundColor: '#f0f0f0',
+            padding: '10px 0',
+            borderBottom: '1px solid #ccc',
+            boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',}}>
             <li className='nav-item'>
                 <Link
                     to="/"
