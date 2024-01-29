@@ -106,4 +106,6 @@ button:focus-visible {
   background-color: #555;
 }
 
-
+.header-section {
+  font-weight: bold;
+}

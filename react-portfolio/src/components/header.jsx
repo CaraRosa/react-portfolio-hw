@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-      <div>
+      <div class="header-section">
       Welcome to my portfolio!
       </div>
     </header>
