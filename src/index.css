@@ -109,3 +109,12 @@ button:focus-visible {
 .header-section {
   font-weight: bold;
 }
+
+.about-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  max-height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+}

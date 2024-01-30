@@ -1,27 +1,28 @@
 import * as React from 'react';
-import { makeStyles } from '@mui/styles';
+// import { makeStyles } from '@mui/styles';
 import myPic from "../assets/images/myPic.jpg";
 
-const useStyles = makeStyles(() => ({
-    image: {
-        width: '100%',
-        maxWidth: '300px',
-        height: 'auto',
-        maxHeight: '400px',
-        borderRadius: '50%',
-        objectFit: 'cover',
-        // alignItems: 'flex-end',
-    },
-}));
+// const useStyles = makeStyles(() => ({
+//     image: {
+//         width: '100%',
+//         maxWidth: '300px',
+//         height: 'auto',
+//         maxHeight: '400px',
+//         borderRadius: '50%',
+//         objectFit: 'cover',
+//         // alignItems: 'flex-end',
+//     },
+// }));
 
 export default function AboutMe() {
-    const classes = useStyles();
+    // const classes = useStyles();
     return (
         <div>
             <img
                 src={myPic}
                 alt="my pic"
-                className={classes.image}
+                className="about-image"
+                // className={classes.image}
             />
             <h2>About Me</h2>
             <p>
