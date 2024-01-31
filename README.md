@@ -6,7 +6,7 @@ The React Portfolio encompasses an overview of my education (About Me), my portf
 
 ## Installation
 
-Users can fork this repository. Link to the deployed application to Netlify: [ReactPortfolio](https://spectacular-pony-32df1e.netlify.app/)
+All users can fork this repository. Link to the deployed application to Netlify: [ReactPortfolio](https://spectacular-pony-32df1e.netlify.app/)
 
 Screenshots of the project are below:
 ![Portfolio Screenshot](./images/PortfolioScreenshot.png)
