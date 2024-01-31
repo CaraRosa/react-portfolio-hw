@@ -6,11 +6,11 @@ The React Portfolio encompasses an overview of my education (About Me), my portf
 
 ## Installation
 
-Users can fork this repository. Link to the deployed application to Netlify: [Portfolio]()
+Users can fork this repository. Link to the deployed application to Netlify: [ReactPortfolio](https://spectacular-pony-32df1e.netlify.app/)
 
 Screenshots of the project are below:
-![Screenshot1]()
+![Portfolio Screenshot](./images/PortfolioScreenshot.png)
 
 ## Credits
 
-I used React documentation to create the Portfolio section. I changed the code in order to display images as a link with a photo. Linked is the website to React documenation: [React Website](https://react.dev/).
+I used React documentation to create the Portfolio section. I changed the code in order to display images as a link with a photo. Linked is the website to React documenation: [React Website](https://react.dev/). The teacher, Hubert, and the TA, Ethan, were able to help me deploy my application to Netlify.
